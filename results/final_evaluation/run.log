@@ -1,0 +1,37 @@
+
+=== Starting Preparation Phase ===
+Starting cvdp_copilot_lfsr_0001 repository execution...
+Creating harness environment for datapoint: /workspace/results/final_evaluation/cvdp_copilot_lfsr_0001
+Requesting valid response to model...
+All preparation tasks completed successfully
+=== Preparation Phase Complete ===
+
+Writing preparation results...
+
+=== Starting Execution Phase ===
+Starting cvdp_copilot_lfsr_0001 harness execution...
+Running service: direct:
+
+Ensuring /workspace/results/final_evaluation/cvdp_copilot_lfsr/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /workspace/results/final_evaluation/cvdp_copilot_lfsr/harness/1/docker-compose.yml, not modifying
+All execution tasks completed successfully
+=== Execution Phase Complete ===
+
+
+=== Benchmark Report ===
+Dataset: example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl
+Generated: 2025-08-12 08:28:31
+
+=== Run Configuration ===
+Golden Mode: No
+Patches Disabled: No
+Force Agentic: No
+Force Copilot: No
+Include Golden Patch: No
+Include Harness: No
+Model/Agent: local_import
+=======================
+
+Generating text report: /workspace/results/final_evaluation/report.txt
+Text report generated: /workspace/results/final_evaluation/report.txt
+Benchmark execution time: Min: 0.4660148620605469 - Max: 0.4660148620605469 - Avg: 0.4660148620605469

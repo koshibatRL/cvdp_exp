@@ -1,0 +1,19 @@
+networks:
+  default:
+    external: true
+    name: licnetwork
+services:
+  lint:
+    command: pytest /src/lint.py -s -v
+    env_file: src/.env
+    image: ghcr.io/hdl/sim/osvb
+    volumes:
+    - ./src:/src/
+    working_dir: /src/rundir/
+  sanity:
+    command: pytest /src/test_runner.py -s -v -o cache_dir=/rundir/harness/.cache
+    env_file: ./src/.env
+    image: ghcr.io/hdl/sim/osvb
+    volumes:
+    - ./src:/src/
+    working_dir: /code/rundir

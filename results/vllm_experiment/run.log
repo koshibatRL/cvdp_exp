@@ -1,0 +1,248 @@
+Running in full benchmark mode
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --llm --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Traceback (most recent call last):
+  File "/workspace/cvdp_benchmark/./run_samples.py", line 381, in <module>
+    run_samples(args, args.n_samples, args.k_threshold) 
+  File "/workspace/cvdp_benchmark/./run_samples.py", line 334, in run_samples
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python'
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --llm --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Traceback (most recent call last):
+  File "/workspace/cvdp_benchmark/./run_samples.py", line 381, in <module>
+    run_samples(args, args.n_samples, args.k_threshold) 
+  File "/workspace/cvdp_benchmark/./run_samples.py", line 334, in run_samples
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python'
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --llm --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+
+=== Running sample 2/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --llm --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_2 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+
+=== Running sample 3/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --llm --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_3 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+
+=== Combining reports ===
+Warning: Report not found at /workspace/results/vllm_experiment/sample_1/report.json
+Warning: Report not found at /workspace/results/vllm_experiment/sample_2/report.json
+Warning: Report not found at /workspace/results/vllm_experiment/sample_3/report.json
+No valid samples found. Cannot create composite report.
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_2 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_3 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Traceback (most recent call last):
+  File "/workspace/cvdp_benchmark/run_samples.py", line 381, in <module>
+    run_samples(args, args.n_samples, args.k_threshold) 
+  File "/workspace/cvdp_benchmark/run_samples.py", line 334, in run_samples
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python'
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_2 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_3 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Traceback (most recent call last):
+  File "/workspace/cvdp_benchmark/run_samples.py", line 381, in <module>
+    run_samples(args, args.n_samples, args.k_threshold) 
+  File "/workspace/cvdp_benchmark/run_samples.py", line 334, in run_samples
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python'
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_2 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_3 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename example_dataset/cvdp_v1.0.1_example_nonagentic_code_generation_no_commercial_with_solutions.jsonl --model local_import --threads 1 --prompts-responses-file /workspace/data/responses.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Traceback (most recent call last):
+  File "/workspace/cvdp_benchmark/run_samples.py", line 381, in <module>
+    run_samples(args, args.n_samples, args.k_threshold) 
+  File "/workspace/cvdp_benchmark/run_samples.py", line 334, in run_samples
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python'
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-1_example_nonagentic_code_generation_no_co'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_2 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_3 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Warning: Sample 1 failed with exit code 2
+
+=== Running sample 2/3 ===
+Command: python run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_2 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Warning: Sample 2 failed with exit code 2
+
+=== Running sample 3/3 ===
+Command: python run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_3 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Warning: Sample 3 failed with exit code 2
+
+=== Combining reports ===
+Warning: Report not found at /workspace/results/vllm_experiment/sample_1/report.json
+Warning: Report not found at /workspace/results/vllm_experiment/sample_2/report.json
+Warning: Report not found at /workspace/results/vllm_experiment/sample_3/report.json
+No valid samples found. Cannot create composite report.
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_2 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_3 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+
+=== Running sample 1/3 ===
+Command: python run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_import --threads 1 --prompts-responses-file /workspace/data/responses.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Warning: Sample 1 failed with exit code 2
+
+=== Running sample 2/3 ===
+Command: python run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_import --threads 1 --prompts-responses-file /workspace/data/responses.jsonl --prefix /workspace/results/vllm_experiment/sample_2 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Warning: Sample 2 failed with exit code 2
+
+=== Running sample 3/3 ===
+Command: python run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_import --threads 1 --prompts-responses-file /workspace/data/responses.jsonl --prefix /workspace/results/vllm_experiment/sample_3 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Warning: Sample 3 failed with exit code 2
+
+=== Combining reports ===
+Warning: Report not found at /workspace/results/vllm_experiment/sample_1/report.json
+Warning: Report not found at /workspace/results/vllm_experiment/sample_2/report.json
+Warning: Report not found at /workspace/results/vllm_experiment/sample_3/report.json
+No valid samples found. Cannot create composite report.
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Running in full benchmark mode
+Warning: Sample directory /workspace/results/vllm_experiment/sample_1 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_2 exists but no raw_result.json found.
+Will run full sample again.
+Warning: Sample directory /workspace/results/vllm_experiment/sample_3 exists but no raw_result.json found.
+Will run full sample again.
+Using shared Docker network for all samples: cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Creating Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Successfully created Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+
+=== Running sample 1/3 ===
+Command: python /workspace/cvdp_benchmark/run_benchmark.py --filename /data4/.cache/huggingface/hub/datasets--nvidia--cvdp-benchmark-dataset/snapshots/25aa15d6375da07ba538aaef7e732c133539d253/cvdp_v1.0.2_nonagentic_code_generation_no_commercial.jsonl --model local_export --threads 1 --prompts-responses-file /workspace/data/exported_prompts.jsonl --prefix /workspace/results/vllm_experiment/sample_1 --external-network --network-name cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Traceback (most recent call last):
+  File "/workspace/cvdp_benchmark/run_samples.py", line 381, in <module>
+    run_samples(args, args.n_samples, args.k_threshold) 
+  File "/workspace/cvdp_benchmark/run_samples.py", line 334, in run_samples
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 505, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1146, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+Cleaning up shared Docker network: cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-2_nonagentic_code_generation_no_commercial'

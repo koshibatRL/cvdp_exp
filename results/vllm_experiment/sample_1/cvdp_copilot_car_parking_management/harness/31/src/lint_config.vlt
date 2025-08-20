@@ -1,0 +1,11 @@
+// DESCRIPTION: Verilator output: Waivers generated with --waiver-output
+
+`verilator_config
+
+// Below you find suggested waivers. You have three options:
+//   1. Fix the reason for the linter warning
+//   2. Keep the waiver permanently if you are sure this is okay
+//   3. Keep the waiver temporarily to suppress the output
+
+lint_off -rule WIDTHTRUNC -file "*/code/rtl/car_parking_system.sv" -match "Operator ASSIGN expects 16 bits on the Assign RHS, but Assign RHS's MUL generates 32 bits."
+lint_off -rule WIDTHTRUNC -file "*/code/rtl/car_parking_system.sv" -match "Operator ASSIGN expects 16 bits on the Assign RHS, but Assign RHS's MUL generates 32 bits."

@@ -1,0 +1,1 @@
+{"cvdp_copilot_lfsr_0001": {"category": "cid003", "difficulty": "easy", "tests": [{"result": 1, "log": "/workspace/results/final_evaluation/cvdp_copilot_lfsr/reports/1.txt", "error_msg": null, "execution": 0.4660148620605469, "pid": 2550}], "errors": 1}}

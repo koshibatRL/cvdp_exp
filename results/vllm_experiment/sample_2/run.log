@@ -1,0 +1,17 @@
+
+=== Starting Preparation Phase ===
+Starting cvdp_copilot_lfsr_0001 repository execution...
+Creating harness environment for datapoint: /workspace/results/vllm_experiment/sample_2/cvdp_copilot_lfsr_0001
+Requesting valid response to model...
+All preparation tasks completed successfully
+=== Preparation Phase Complete ===
+
+Writing preparation results...
+Skipping evaluation - model does not require harness execution (export mode)
+Skipping raw_result.json creation - model does not require harness execution (export mode)
+
+=== Export Mode Summary ===
+Prompts have been exported successfully.
+No evaluation report generated since no harness execution occurred.
+Prompts saved to: /workspace/data/exported_prompts.jsonl
+Use --model local_import with --prompts-responses-file to evaluate responses.

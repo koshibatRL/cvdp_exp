@@ -1,0 +1,1 @@
+// Dummy content for rtl/lfsr_8bit.sv - replace with actual inference results
